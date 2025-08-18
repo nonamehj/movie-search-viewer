@@ -4,4 +4,6 @@ import Popular from "./Popular";
 import Comedy from "./Comedy";
 import Theatre from "./Theatre";
 import Search from "./Search";
-export { Home, Kids, Popular, Comedy, Theatre, Search };
+import Error from "./Error";
+
+export { Home, Kids, Popular, Comedy, Theatre, Search, Error };

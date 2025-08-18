@@ -77,6 +77,7 @@ src/
 │       └── SearchFormStyle.css
 ├── pages/
 │   ├── Home.js
+│   ├── Error.js
 │   ├── Comedie.js
 │   ├── Kids.js
 │   ├── Popular.js
@@ -86,6 +87,7 @@ src/
 │   ├── SingleMovieStyle.css
 │   └── index.js             → 각 페이지 export 모음
 ├── sharedLayout/
+│   ├── SharedLayout.js
 │   ├── SharedLayoutPage.js
 │   ├── SharedLayoutSearch.js
 │   └── index.js             → Layout export 모음

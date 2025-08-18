@@ -1,3 +1,4 @@
 import SharedLayoutSearch from "./SharedLayoutSearch";
 import SharedLayoutPage from "./SharedLayoutPage";
-export { SharedLayoutSearch, SharedLayoutPage };
+import SharedLayout from "./SharedLayout";
+export { SharedLayoutSearch, SharedLayoutPage, SharedLayout };

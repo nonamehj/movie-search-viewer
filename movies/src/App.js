@@ -1,9 +1,13 @@
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
-import { Home, Kids, Popular, Comedy, Theatre, Search } from "./pages/";
-import SharedLayout from "./pages/SharedLayout";
-import { SharedLayoutSearch, SharedLayoutPage } from "./sharedLayout";
+import { Home, Kids, Popular, Comedy, Theatre, Search, Error } from "./pages/";
+// import SharedLayout from "./pages/SharedLayout";
+import {
+  SharedLayoutSearch,
+  SharedLayoutPage,
+  SharedLayout,
+} from "./sharedLayout";
 import SingleMovie from "./pages/SingleMovie";
 import ErrorPage from "./components/error/ErrorPage";
 
@@ -57,7 +61,7 @@ function App() {
             <Route index element={<Search />} />
             <Route path=":id" element={<SingleMovie />} />
           </Route>
-          <Route path="*" element={<ErrorPage />} />
+          <Route path="*" element={<Error />} />
         </Route>
       </Routes>
     </BrowserRouter>
