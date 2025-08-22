@@ -1,9 +1,17 @@
-import Home from "./Home";
-import Kids from "./Kids";
-import Popular from "./Popular";
-import Comedy from "./Comedy";
-import Theatre from "./Theatre";
-import Search from "./Search";
-import Error from "./Error";
+import HomePage from "./HomePage";
+import KidsPage from "./KidsPage";
+import PopularPage from "./PopularPage";
+import ComedyPage from "./ComedyPage";
+import TheatrePage from "./TheatrePage";
+import SearchPage from "./SearchPage";
+import ErrorPage from "./ErrorPage";
 
-export { Home, Kids, Popular, Comedy, Theatre, Search, Error };
+export {
+  HomePage,
+  KidsPage,
+  PopularPage,
+  ComedyPage,
+  TheatrePage,
+  SearchPage,
+  ErrorPage,
+};

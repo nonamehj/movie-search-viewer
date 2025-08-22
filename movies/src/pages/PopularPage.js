@@ -1,4 +1,3 @@
-import React from "react";
 import MoviesList from "../components/moviesList/MovieList";
 const Popular = () => {
   return (

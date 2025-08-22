@@ -1,7 +1,15 @@
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
-import { Home, Kids, Popular, Comedy, Theatre, Search, Error } from "./pages/";
+import {
+  HomePage,
+  KidsPage,
+  PopularPage,
+  ComedyPage,
+  TheatrePage,
+  SearchPage,
+  ErrorPage,
+} from "./pages/";
 // import SharedLayout from "./pages/SharedLayout";
 import {
   SharedLayoutSearch,
@@ -9,7 +17,6 @@ import {
   SharedLayout,
 } from "./sharedLayout";
 import SingleMovie from "./pages/SingleMovie";
-import ErrorPage from "./components/error/ErrorPage";
 
 function App() {
   useEffect(() => {
@@ -40,28 +47,28 @@ function App() {
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
-          <Route index element={<Home />} />
+          <Route index element={<HomePage />} />
           <Route path="popular" element={<SharedLayoutPage />}>
-            <Route index element={<Popular />} />
+            <Route index element={<PopularPage />} />
             <Route path=":id" element={<SingleMovie />} />
           </Route>
           <Route path="theatre" element={<SharedLayoutPage />}>
-            <Route index element={<Theatre />} />
+            <Route index element={<TheatrePage />} />
             <Route path=":id" element={<SingleMovie />} />
           </Route>
           <Route path="kids" element={<SharedLayoutPage />}>
-            <Route index element={<Kids />} />
+            <Route index element={<KidsPage />} />
             <Route path=":id" element={<SingleMovie />} />
           </Route>
           <Route path="comedy" element={<SharedLayoutPage />}>
-            <Route index element={<Comedy />} />
+            <Route index element={<ComedyPage />} />
             <Route path=":id" element={<SingleMovie />} />
           </Route>
           <Route path="search" element={<SharedLayoutSearch />}>
-            <Route index element={<Search />} />
+            <Route index element={<SearchPage />} />
             <Route path=":id" element={<SingleMovie />} />
           </Route>
-          <Route path="*" element={<Error />} />
+          <Route path="*" element={<ErrorPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -1,5 +1,5 @@
-import "./MainPageStyle.css";
-import { useGlobalContext } from "./../../context";
+import "./MainStyle.css";
+import { useGlobalContext } from "../../context";
 import { useEffect, useRef, useState, useCallback } from "react";
 import SlideMovies from "./SlideMovies";
 import PreviewMovies from "./PreviewMovies";

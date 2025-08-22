@@ -43,12 +43,9 @@ TMDB API를 활용하여 영화 정보를 제공하는 웹 애플리케이션입
 ```js
 src/
 ├── components/
-│   ├── error/                 → 라우팅 에러시 보여주는 페이지
-│   │   ├── ErrorPage.js
-│   │   └── ErrorPageStyle.css
 │   ├── homepage/              → 홈 화면 관련 컴포넌트
-│   │   ├── mainPage.js        → 홈 메인 부모 컴포넌트 (슬라이드 + 썸네일)
-│   │   ├── mainPageStyle.css
+│   │   ├── main.js        → 홈 메인 부모 컴포넌트 (슬라이드 + 썸네일)
+│   │   ├── mainStyle.css
 │   │   ├── SlideMovies.js     → 현재 보여지는 슬라이드 이미지 3개 (자동 슬라이드)
 │   │   ├── SlideMoviesStyle.css
 │   │   ├── PreviewMovies.js   → 전체 이미지 목록, 선택 시 상단 슬라이드 반영
@@ -69,6 +66,9 @@ src/
 │   │   ├── navbarStyle.css
 │   │   ├── NavItem.js
 │   │   └── NavItemStyle.css
+│   ├── not-found/                 → 라우팅 에러시 보여주는 페이지
+│   │   ├── NotFound.js
+│   │   └── NotFoundStyle.css
 │   ├── pagination/           → 페이지네이션 컴포넌트
 │   │   ├── Pagination.js
 │   │   └── PaginationStyle.css
@@ -76,13 +76,14 @@ src/
 │       ├── SearchForm.js
 │       └── SearchFormStyle.css
 ├── pages/
-│   ├── Home.js
-│   ├── Error.js
-│   ├── Comedie.js
-│   ├── Kids.js
-│   ├── Popular.js
-│   ├── Search.js
-│   ├── SharedLayout.js
+│   ├── HomePage.js
+│   ├── ErrorPage.js
+│   ├── ComediePage.js
+│   ├── KidsPage.js
+│   ├── PopularPage.js
+│   ├── TheatrePage.js
+│   ├── SearchPage.js
+│   ├── ErrorPage.js
 │   ├── SingleMovie.js
 │   ├── SingleMovieStyle.css
 │   └── index.js             → 각 페이지 export 모음

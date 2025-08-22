@@ -1,7 +1,6 @@
-import React from "react";
-import "./ErrorPageStyle.css";
+import "./NotFoundStyle.css";
 import { useNavigate } from "react-router";
-const ErrorPage = () => {
+const NotFound = () => {
   const navigate = useNavigate();
   return (
     <section className="section error-page">
@@ -15,4 +14,4 @@ const ErrorPage = () => {
   );
 };
 
-export default ErrorPage;
+export default NotFound;
