@@ -9,14 +9,13 @@ import {
   TheatrePage,
   SearchPage,
   ErrorPage,
+  SingleMovie,
 } from "./pages/";
-// import SharedLayout from "./pages/SharedLayout";
 import {
   SharedLayoutSearch,
   SharedLayoutPage,
   SharedLayout,
 } from "./sharedLayout";
-import SingleMovie from "./pages/SingleMovie";
 
 function App() {
   useEffect(() => {

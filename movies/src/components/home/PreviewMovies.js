@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 import "./PreviewMoviesStyle.css";
-import { useGlobalContext } from "./../../context";
+import { useGlobalContext } from "../../context";
 import PLACEHOLDER_IMAGE from "../../noImage.webp";
 const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";
 const PreviewMovies = ({ setPageValue, pageValue }) => {

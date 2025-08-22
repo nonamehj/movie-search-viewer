@@ -1,6 +1,6 @@
 import "./SlideMoviesStyle.css";
 import React, { memo, useCallback } from "react";
-import { useGlobalContext } from "./../../context";
+import { useGlobalContext } from "../../context";
 import { useNavigate } from "react-router";
 import PLACEHOLDER_IMAGE from "../../noImage.webp";
 const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";

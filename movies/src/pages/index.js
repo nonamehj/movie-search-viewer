@@ -5,7 +5,7 @@ import ComedyPage from "./ComedyPage";
 import TheatrePage from "./TheatrePage";
 import SearchPage from "./SearchPage";
 import ErrorPage from "./ErrorPage";
-
+import SingleMovie from "./SingleMovie";
 export {
   HomePage,
   KidsPage,
@@ -14,4 +14,5 @@ export {
   TheatrePage,
   SearchPage,
   ErrorPage,
+  SingleMovie,
 };
