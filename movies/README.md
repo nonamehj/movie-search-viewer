@@ -203,9 +203,9 @@ src/
 ## 📸 프로젝트 데모 및 기타
 
 📸 프로젝트 데모
-👉 [https://nonamehj.github.io/project-movielist](\https://nonamehj.github.io/project-movielist)
+👉 [https://nonamehj.github.io/movie-search-viewer](\https://nonamehj.github.io/movie-search-viewer)
 
 💻 GitHub 코드
-👉 [https://github.com/nonamehj/project-movielist](https://github.com/nonamehj/project-movielist)
+👉 [https://github.com/nonamehj/movie-search-viewer](https://github.com/nonamehj/movie-search-viewer)
 
 ---
